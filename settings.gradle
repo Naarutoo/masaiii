@@ -1,0 +1,5 @@
+rootProject.name = "Main Screen"
+include ':app'
+include ':signup'
+include ':SignIn'
+include ':homescreen'

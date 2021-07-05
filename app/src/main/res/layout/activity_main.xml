@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BC1C2B"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="35dp"
+
+        android:layout_marginTop="91dp"
+        android:layout_marginLeft="131dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <TextView
+android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        
+        android:text="masai school is 21st  century coding school  that cares about you"
+        android:textColor="@color/white"
+        android:layout_marginLeft="38dp"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="254dp"
+        android:layout_height="200dp"
+        android:src="@drawable/masaai"
+        android:layout_marginTop="311dp"
+        android:layout_marginLeft="78dp"
+        android:backgroundTint="#BC1C2B"
+        />
+    <Button
+        android:id="@+id/bn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/i1"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="47dp"
+        android:text="Sign in"
+        android:paddingLeft="125dp"
+        android:paddingRight="110dp"
+        android:paddingVertical="19dp"
+       android:backgroundTint="@color/white"
+        android:textColor="#BC1C2B"
+        />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bn1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="47dp"
+        android:text="create an account"
+        android:paddingLeft="71dp"
+        android:paddingRight="58dp"
+        android:paddingVertical="19dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>

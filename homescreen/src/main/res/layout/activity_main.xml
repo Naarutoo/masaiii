@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BC1C2B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_marginTop="147dp"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"
+
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lloyd Dcosta"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:layout_marginTop="147dp"
+        android:layout_marginLeft="45dp"
+
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>
